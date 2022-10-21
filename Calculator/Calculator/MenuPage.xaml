@@ -5,8 +5,8 @@
     <ContentPage.Content>
         
         <StackLayout Margin="0,35,10,0">
-            
-            <Button x:Name="btnApp1" Text="Calculadora" Clicked="btnApp1_Clicked"></Button
+            <Label Text="Bienvenido:" HorizontalTextAlignment="Center" TextColor="Navy" FontSize="14" Margin="5"/>
+            <Button x:Name="btnApp1" Text="Calculadora" Clicked="btnApp1_Clicked"></Button>
 
         </StackLayout>
     </ContentPage.Content>
