@@ -5,7 +5,7 @@
 
     <StackLayout BackgroundColor="White">
         <Frame BackgroundColor="RoyalBlue" Padding="24" CornerRadius="0">
-            <Label Text="Ejercicio 1.1 Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
 
         <Label Text="Número 1:" HorizontalTextAlignment="Center" TextColor="Navy" FontSize="14" Margin="5"/>
