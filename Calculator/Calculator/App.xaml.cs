@@ -10,6 +10,8 @@ namespace Calculator
         {
             InitializeComponent();
 
+            //MainPage = new MainPage();
+
             MainPage = new NavigationPage(new MenuPag());
         }
 

@@ -3,31 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculator.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#B22222" Padding="24" CornerRadius="0">
+    <StackLayout BackgroundColor="White">
+        <Frame BackgroundColor="RoyalBlue" Padding="24" CornerRadius="0">
             <Label Text="Ejercicio 1.1 Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
 
-        <Entry x:Name="num1"
-               Placeholder="NUMERO 1"
-               Keyboard="Numeric">
-            
-        </Entry>
-        <Entry x:Name="num2"
-               Placeholder="NUMERO 2"
-               Keyboard="Numeric">
+        <Label Text="Número 1:" HorizontalTextAlignment="Center" TextColor="Navy" FontSize="14" Margin="5"/>
+        <Entry x:Name="num1" BackgroundColor="LightSteelBlue" Keyboard="Numeric" TextColor="Navy" FontSize="40" Margin="5" HorizontalTextAlignment="Center"></Entry>
 
-        </Entry>
+        <Label Text="Número 1:" HorizontalTextAlignment="Center" TextColor="Navy" FontSize="14" Margin="5"/>
+        <Entry x:Name="num2" BackgroundColor="LightSteelBlue" Keyboard="Numeric" TextColor="Navy" FontSize="40" Margin="5" HorizontalTextAlignment="Center"></Entry>
 
-        <Button Text="SUMAR" x:Name="btnadition" Clicked="btnagregar_Clicked"></Button>
-        <Button Text="RESTAR" x:Name="btnsubstraction" Clicked="btnsubstraction_Clicked"></Button>
-        <Button Text="MULTIPLICAR" x:Name="btnmultiplication" Clicked="btnmultiplication_Clicked"></Button>
-        <Button Text="DIVIDIR" x:Name="btndivision" Clicked="btndivision_Clicked"></Button>
-        <Image Source="https://img2.freepng.es/20180921/gxa/kisspng-universidad-tecnolgica-de-honduras-tegucigalpa-u-clases-uth-timeline-timetoast-timelines-5ba4e28494c0d0.3323374415375325486093.jpg"
-                   HeightRequest="200"
-                   WidthRequest="600"
-                   HorizontalOptions="CenterAndExpand"
-                   Aspect="Fill"/>
+        <StackLayout BackgroundColor="LightSteelBlue" Margin="5">
+            <Button Text="SUMAR" x:Name="btnadition" Clicked="btnagregar_Clicked" BackgroundColor="RoyalBlue" Margin="5"></Button>
+            <Button Text="RESTAR" x:Name="btnsubstraction" Clicked="btnsubstraction_Clicked" BackgroundColor="RoyalBlue" Margin="5"></Button>
+            <Button Text="MULTIPLICAR" x:Name="btnmultiplication" Clicked="btnmultiplication_Clicked" BackgroundColor="RoyalBlue" Margin="5"></Button>
+            <Button Text="DIVIDIR" x:Name="btndivision" Clicked="btndivision_Clicked" BackgroundColor="RoyalBlue" Margin="5"></Button>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

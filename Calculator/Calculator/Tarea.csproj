@@ -36,4 +36,8 @@
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Prueba\" />
+  </ItemGroup>
 </Project>
