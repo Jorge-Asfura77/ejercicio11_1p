@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculator.SecondPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="White">
             <Label Text="Welcome to Xamarin.Forms!" x:Name="lbresultado"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
